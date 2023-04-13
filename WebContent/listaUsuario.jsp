@@ -12,10 +12,10 @@
 <title>.: Sucesso :.</title>
 </head>
 <body>
- <h1> Usuario encontrado com sucesso! </h1>
+ <h1> Usuário encontrado com sucesso! </h1>
  <hr> 
      <% for (model.Usuario elemento : lista) { %>
-  		<% out.println(elemento.getId()); %>
+  		<% out.println(elemento.getId()); %> - <% out.println(elemento.getNome()); %> - <% out.println(elemento.getEmail()); %><br>  		
 	<% } %>   
 </body>
 </html>

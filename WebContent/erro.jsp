@@ -4,9 +4,9 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Erro</title>
+<title>Usuários</title>
 </head>
 <body>
-
+<h1>Nenhum registro localizado</h1>
 </body>
 </html>

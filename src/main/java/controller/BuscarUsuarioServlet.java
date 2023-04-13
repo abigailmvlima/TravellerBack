@@ -29,28 +29,31 @@ public class BuscarUsuarioServlet extends HttpServlet {
 		lista.add(new Usuario(2,"Kaique Bernardo", "kaique@gmail.com"));
 		
 		
+		if (request.getParameter("id")== null) {
+			this.show(request, response, "/erro.jsp");
+			return;			
+		}
 		int id = Integer.parseInt(request.getParameter("id"));
-
+		System.out.println("teste");
+		System.out.println(id);
 		if (id == 0) {
-			this.show(request, response, "erro.jsp");
+			this.show(request, response, "/erro.jsp");
 			return;
 		}
 		
-		Usuario result = null;
+		ArrayList<Usuario> resultado = new ArrayList<Usuario>();
+		
 		for (Usuario user : lista) {
 			if (user.getId() == id) {
-				result = user;	
+				resultado.add(user);	
 				break;
 			}
 		}
 		
 		
-		if (result == null) {
-			this.show(request, response, "erro.jsp");
-			return;
-		}
-		request.setAttribute("Usuario", result);
-		this.show(request, response, "listaUsuario.jsp");
+		
+		request.setAttribute("listaUsuario", resultado);
+		this.show(request, response, "/listaUsuario.jsp");
 	}
 
 }

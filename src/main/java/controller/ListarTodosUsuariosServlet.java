@@ -29,7 +29,7 @@ public class ListarTodosUsuariosServlet  extends HttpServlet {
 		
 				
 		request.setAttribute("listaUsuario", lista);
-		this.show(request, response, "listaUsuario.jsp");
+		this.show(request, response, "/listaUsuario.jsp");
 		
 	}
 
