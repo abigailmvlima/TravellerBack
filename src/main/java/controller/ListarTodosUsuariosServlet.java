@@ -24,8 +24,8 @@ public class ListarTodosUsuariosServlet  extends HttpServlet {
 		
 		
 		ArrayList<Usuario> lista = new ArrayList<Usuario>();
-		lista.add(new Usuario(1,"Abigail Lima", "abigail@gmail.com"));
-		lista.add(new Usuario(2,"Kaique Bernanrdo", "kaique@gmail.com"));
+		lista.add(new Usuario(1,"Abigail Lima", "feminino" , "abigail@gmail.com", "11/03/1986", "Lima"));
+		lista.add(new Usuario(2,"Kaique Bernanrdo", "masculino", "kaique@gmail.com", "02/09/1994", "Bernardo"));
 		
 				
 		request.setAttribute("listaUsuario", lista);

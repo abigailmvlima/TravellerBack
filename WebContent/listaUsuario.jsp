@@ -15,7 +15,7 @@
  <h1> Usuário encontrado com sucesso! </h1>
  <hr> 
      <% for (model.Usuario elemento : lista) { %>
-  		<% out.println(elemento.getId()); %> - <% out.println(elemento.getNome()); %> - <% out.println(elemento.getEmail()); %><br>  		
+  		<% out.println(elemento.getId()); %> - <% out.println(elemento.getNome()); %> - <% out.println(elemento.getSexo()); %> - <% out.println(elemento.getEmail()); %> - <% out.println(elemento.getDataNasc()); %> - <% out.println(elemento.getSenha()); %><br>  		
 	<% } %>   
 </body>
 </html>
