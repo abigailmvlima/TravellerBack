@@ -1,0 +1,224 @@
+@media only screen and (max-width: 1000px) {
+  main {
+    padding: 0 5%;
+  }
+
+  header {
+    margin: 0 5%!important;
+    margin-top: 20px!important;
+    margin-bottom: 50px!important;
+  }
+
+  h2 {
+    font-size: 60px;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  h3 {
+    font-size: 40px;
+    margin-top: 20px;
+  }
+
+  h6 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  p {
+    font-size: 28px;
+    padding-bottom: 15px;
+  }
+
+  .text-logo {
+    font-size: 30px;
+  }
+
+  .menu > nav > ul > li {
+    padding: 10px 15px;
+  }
+  
+  .menu > nav > ul > li > a {
+    font-size: 30px;
+  }
+
+
+  main > .banner-search {
+    justify-content: flex-start;
+  }
+
+  main > .banner-search > img {
+    display: none;
+  }
+
+  main > .banner-search > .search-reserve > .header h2 {
+    margin-top: 40px!important;
+    padding: 0;    
+  }
+
+  main > .banner-search > .search-reserve > .header p {
+    margin-top: 20px;
+    margin-bottom: 40px!important;
+    text-align: center;
+  }
+
+  main > .banner-search > .search-reserve {
+    padding: 0;
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    height: auto;
+    min-width: auto;
+    min-height: auto;
+  }
+
+  .row-input {
+    display: flex;
+  }
+
+  .row-input > div {
+    width: 48%;
+  }
+
+  .row-input > :nth-child(1) {
+    margin-right: 30px;
+  }
+
+  .input-search {
+    margin-top: 15px;
+    margin-bottom: 20px;
+  }
+
+  .input-search .input-layout {
+    border-radius: 15px;
+  }
+
+  .input-search label {
+    margin: 25px;
+  }
+
+  .input-search input {
+    font-size: 40px;
+    line-height: 35px;
+  }
+
+  .input-search span {
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .button-search {
+    margin-top: 10px;
+  }
+
+  .input-search select {
+    width: auto;
+    font-size: 30px;
+    padding: 5px 5px 0 5px;
+    background-color: #fff;
+  }
+
+  .input-search select > option {
+    font-size: 20px;
+  }
+
+  .button-search button {
+    padding: 25px;
+    border-radius: 15px;
+    margin-top: 10px;
+  }
+
+  .button-search button span {
+    font-size: 40px;
+    letter-spacing: 2px;
+    margin: 30px;
+  }
+
+  .assessments,
+  .sac {
+    margin-top: 10px;
+    border-top: none;
+  }
+
+  .assessments p {
+    font-size: 25px;
+  }
+  
+  .assessments p strong {
+    font-size: 25px;
+  }
+
+  .box-base {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .box-base > :nth-child(1) {
+    margin-right: 0;
+  }
+  
+  .box-base > :nth-child(2) {
+    margin-right: 0;
+  }
+
+  .box-hotel {
+    width: auto;
+    margin-bottom: 70px;
+  }
+
+  .box-hotel > img {
+    height: auto;
+  }
+
+  .box-hotel .stars {
+    margin: 30px 0;
+  }
+
+  .box-hotel .stars > i {
+    margin-right: 8px;
+    font-size: 36px;
+  }
+
+  .box-hotel .description p {
+    font-size: 28px;
+  }
+
+  .box-hotel .foto {
+    margin-top: 20px;
+  }
+
+  .box-hotel .foto > img {
+    width: 120px;
+    margin-right: 20px;
+  }
+
+  .box-hotel {
+    text-align: center;
+  }
+
+  .box-hotel > i {
+    font-size: 105px;
+  }
+
+  .box-hotel > p {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 80px;
+  }
+
+  footer > p {
+    margin-top: 20px;
+    font-size: 30px;
+  }
+
+  footer > div > a i {
+    font-size: 70px !important;
+    margin: 20px;
+  }
+}

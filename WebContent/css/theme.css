@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,700&display=swap");
+
+/* https://fontawesome.com/v4/icons/#new */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;  
+    font-family: "Montserrat", sans-serif;
+    font-size: 11px;
+  }
+
+.text-justify {
+  text-align: justify;
+}
+
+.bgWhite {  background: #fff;  }
+.bgBlack { background: #000; }
+.colorWhite { color: #fff; }
+.colorBlack { color: #000; }
+
+.w47Perc { width: 47%; }
+.w50Perc { width: 50%; }
+.flexGrow {
+  flex-grow: 1;
+}
+
+.row { 
+  display: flex;
+  flex-direction: row; 
+}
+
+.p10 { padding: 10px; }
+.py10 { padding: 10px 0; }
+.px10 { padding: 0 10px; }
+.pt10 { padding-top: 10px; }
+.pb10 { padding-bottom: 10px; }
+.pr10 { padding-right: 10px; }
+.pl10 { padding-left: 10px; }
+
+.m10 { margin: 10px; }
+.my10 { margin: 10px 0; }
+.mx10 { margin: 0 10px; }
+.mt10 { margin-top: 10px; }
+.mb10 { margin-bottom: 10px; }
+.mr10 { margin-right: 10px; }
+.ml10 { margin-left: 10px; }
+
+.p15 { padding: 15px; }
+.py15 { padding: 15px 0; }
+.px15 { padding: 0 15px; }
+.pt15 { padding-top: 15px; }
+.pb15 { padding-bottom: 15px; }
+.pr15 { padding-right: 15px; }
+.pl15 { padding-left: 15px; }
+
+.m15 { margin: 15px; }
+.my15 { margin: 15px 0; }
+.mx15 { margin: 0 15px; }
+.mt15 { margin-top: 15px; }
+.mb15 { margin-bottom: 15px; }
+.mr15 { margin-right: 15px; }
+.ml15 { margin-left: 15px; }

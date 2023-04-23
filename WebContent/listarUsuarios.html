@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <title>Travellers</title>
+    <meta charset="utf-8">
+    <link rel="icon" type="image" href="/images/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome-4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/theme.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="css/forms.css" media="screen" />
+    <link rel="stylesheet" href="css/desktop.css" />
+    <link rel="stylesheet" href="css/mobile.css" />
+    <script src="js/moment.js"></script>
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/services.js"></script>
+</head>
+
+<body onload="carregarMapa()">
+    <header class="menu">
+        <a href="#">
+            <i class="text-logo mr10 fa fa-bed"></i>
+            <span class="text-logo">Traveller</span>
+        </a>
+
+    </header>
+    <main>
+        <div class="banner-search">
+            <div class="search-reserve">
+                <div class="header">
+                    <div>
+                        <h2>Busca por usuários</h2>
+                        <p>
+                            Informe o usuário qual deseja informações
+                        </p>
+                    </div>
+                </div>
+
+
+                <div class="row-input">
+                    <div class="input-search">
+                        <label>
+                            <span>Nome</span>
+                            <input type="name" id="" value="João" />
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                </div>
+
+                <div class="row-input">
+                    <div class="input-search">
+                        <label>
+                            <span>Documento</span>
+                            <input type="name" id="" value="42.162.538-7" />
+                            <div class="input-layout"></div>
+                        </label>
+                    </div>
+                </div>
+                <div class="row button-search">
+                    <button type="execute">
+                        <span>Buscar</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="user-form">
+                <div class="search-row">
+
+                    <div class="card-form">
+                        <div class="header">
+                            <h4>João da Silva Sauro</h4>
+                            <p>
+                                Id 3443
+                            </p>
+                        </div>
+
+
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>Nome Completo</span>
+                                    <input type="name" id="" value="João da Silva Sauro" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>RG</span>
+                                    <input type="name" id="" value="42.162.538-7" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>email cadastrado</span>
+                                    <input type="name" id="" value="joao@sauro.com.br" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>Data de Nascimento</span>
+                                    <input type="date" id="" value="1978-07-22" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>Sexo</span>
+                                    <select disabled="true">
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Feminino">Feminino</option>
+                                    </select>
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="card-form">
+                        <div class="header">
+                            <h4>Abigail Lima</h4>
+                            <p>
+                                Id 3443
+                            </p>
+                        </div>
+
+
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>Nome Completo</span>
+                                    <input type="name" id="" value="João da Silva Sauro" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>RG</span>
+                                    <input type="name" id="" value="42.162.538-7" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>email cadastrado</span>
+                                    <input type="name" id="" value="joao@sauro.com.br" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>Data de Nascimento</span>
+                                    <input type="date" id="" value="1978-07-22" disabled="true" />
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="row-input cl50">
+                            <div class="input-search">
+                                <label>
+                                    <span>Sexo</span>
+                                    <select disabled="true">
+                                        <option value="Masculino">Masculino</option>
+                                        <option value="Feminino">Feminino</option>
+                                    </select>
+                                    <div class="input-layout"></div>
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <img src="images/guest.webp" alt="" />
+
+        </div>
+
+
+
+    </main>
+    <footer>
+        <p>© 2023 Traveller, Inc. All rights reserved</p>
+        <div>
+            <a href="#"><i class="fa fa-facebook-official"></i></a>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+        </div>
+    </footer>
+    <script src="js/mapa.js"></script>
+    <script src="js/load.js"></script>
+</body>
+
+</html>
